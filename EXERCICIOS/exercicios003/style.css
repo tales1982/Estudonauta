@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(7, 158, 245), rgba(12, 239, 247, 0.336));
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 36px;
+    color: aliceblue;
+}
+section {
+    font-size: 24px;
+    color: aliceblue;
+}

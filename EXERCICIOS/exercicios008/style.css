@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(7, 158, 245), rgba(12, 239, 247, 0.336));
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(101, 3, 3);
+}#valor {
+    background-color: rgba(244, 239, 236, 0.703);
+    font-size: 24px;
+    padding: 03px;
+}
+#a1 {
+    padding: 12px;
+    height: 34px;
+    width: 80px;
+}

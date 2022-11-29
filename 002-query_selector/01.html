@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: rgb(113, 113, 200);
+            color: aliceblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: justify;
+            margin-top: 80px;
+            margin-left: 80px;
+
+        }
+
+        button {
+            margin: 20px;
+        }
+
+        button:hover {
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Iniciando estudo com DOM</h1>
+    <p id="paragrafo">Aqui vai o resultado</p>
+
+    <p>Aprendendo a usar o <strong id="negrito">DOM</strong> em Javascript.</p>
+
+
+    <div id="msg">Cick em min</div>
+
+
+    <script>
+        let corpo = window.document.body
+        let p1 = window.document.querySelector('div#msg')
+        p1.style.background = 'blue'
+        
+        let d = document.querySelector('p > #negrito')
+         
+    </script>
+
+</body>
+
+</html>

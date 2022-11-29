@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculando preço do trajeto</h1>
+    <section>
+        <p>VIAGENS ATE 200 KM:..................................... R$ 0.50/KM</p>
+        <P>VIAGENS ACIMA DE 200 KM:..........................R$ 0.35/KM</P>
+        <P>============================================</P>
+                
+    </section>
+    <section id="km">
+        INFORME A DISTANCIA PERCORRIDA EM KM 
+        <input type="text" id="valor">
+        <input type="submit" onclick="capturar()" value="escreva algo">
+       <p id="valorDigitado"></p>
+    </section>
+
+    <section id="res">
+        <p></p>
+    </section>
+    <script src="001.js"></script>
+</body>
+</html>

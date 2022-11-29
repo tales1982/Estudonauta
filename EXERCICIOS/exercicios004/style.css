@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(3, 97, 3), rgb(158, 234, 158));
+    background-attachment: fixed;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}

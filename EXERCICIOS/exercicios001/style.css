@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(7, 158, 245), rgba(12, 239, 247, 0.336));
+    background-attachment: fixed;
+
+}
+
+header {
+color: white;
+text-align: center;
+
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+section>div{
+    font-weight: bold;
+    color: rgb(2, 0, 4);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
